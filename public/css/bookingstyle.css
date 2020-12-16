@@ -1,0 +1,828 @@
+
+a { transition: all 0.2s ease-in-out 0s; -moz-transition: all 0.2s ease-in-out 0s; -webkit-transition: all 0.2s ease-in-out 0s; -o-transition: all 0.2s ease-in-out 0s; }
+
+.wp.wp_booking_V5 { background: #FFF; }
+.wp.wp_booking_V5 .fix_from_booking { background: #FFF; }
+.wp_slide_booking_V5 { width: 100%; float: left; padding: 0px; }
+.wp.wp_booking { margin-top: -4px; }
+.wp_from_booking { padding-top: 0px; }
+.img_datlich { width: 100%; float: left; margin-top: 10px; }
+.p_title_booking_V5 { font-size: 18px; font-family: UTM Alexander; text-transform: uppercase; color: #000000; text-align: center; width: 100%; float: left; }
+.text_step { width: 100%; float: left; text-transform: uppercase; color: #000; font-family: UTM Alexander; font-size: 20px; margin-top: 10px; padding-left: 5px; }
+.fix_text_step { margin-top: 10px; }
+.wp2_booking_V5 .fix_tr_booking, .wp2_booking_V5 .fr_text { width: 100%; }
+.modify-margin { margin-top: 5px !important; }
+
+.modify-datebook { padding: 3px 0px; }
+.text-city { font-family: Arial; color: black; }
+.img-location { width: 25px !important; height: 25px !important; }
+.input-booking { /*padding-left: 5px !important; padding-right: 5px !important;*/ }
+.text-list { font-family: Arial; margin-bottom: 5px; font-style: normal; margin-left: 15px; display: list-item; padding-right: 10px; }
+.span_not { font-style: normal !important; }
+
+.form_booking { width: 450px; }
+.form-control { height: 45px; border-radius: 25px; font-size: 16px; }
+.ul_salon { margin-top: 10px; }
+.wp_lststylist { width: 100%; float: left; }
+.a_stylist.form-control.fr_text { line-height: 35px; color: #333; }
+.a_stylist .span_not { color: #333; }
+.wp_lststylist .a_stylist .i_triagle { top: 20px; }
+.ul_datebook { margin-top: 15px; }
+.text_bookHour_V6 { width: 100%; float: left; padding: 20px 15px 25px; font-size: 16px; font-family: Arial; text-align: justify; text-align-last: center; -moz-text-align-last: center; line-height: 22px; background: #FFF; border-bottom: 4px solid #e0e0e0; margin-top: 5px; margin-bottom: 10px; }
+.wp_textnote .text_note:last-child { margin-top: 15px; }
+/*.wp_khunggio { background: none; margin: 0; padding: 0px; margin-left: -10px; width: 460px; }
+.li_hour_booking { margin-left: 10px; margin-right: 0px; }*/
+
+.wp_khunggio { width: 102%; margin-left: -1.5%; padding: 0px; background: none; }
+/*.wp_khunggio .li_hour_booking { width: 20%; float: left; padding-left: 0.5%; margin: 0 0 3px 0; }
+*/
+
+
+.li_hour_booking .hour_booking { width: 100%; height: 50px; line-height: 36px; font-size: 20px; color: #000; background: #FFF; border: none; }
+.hour_booking.disable .span_hetcho, .hour_booking .span_hetcho { font-size: 13px; color: #000; }
+.li_hour_booking .hour_booking.disable, .li_hour_booking .hour_booking.disable.spdisable, .li_hour_booking .hour_booking.disable:hover, .li_hour_booking .hour_booking.disable.spdisable:hover { border-bottom: 3.5px solid #e00000; box-shadow: none; -moz-box-shadow: none; background: ghostwhite; color: #000; }
+
+.li_hour_booking .hour_booking.disable .span_hetcho, .li_hour_booking .hour_booking.disable.spdisable .span_hetcho, .li_hour_booking .hour_booking.disable:hover .span_hetcho, .li_hour_booking .hour_booking.disable.spdisable:hover .span_hetcho { color: #000; }
+/*.li_hour_booking .hour_booking.disable, .li_hour_booking .hour_booking.disable.spdisable, .li_hour_booking .hour_booking.disable:hover, .li_hour_booking .hour_booking.disable.spdisable:hover { border-bottom: 3.5px solid #e00000; box-shadow: none; -moz-box-shadow: none; background: #FFF; color: #000; }
+*/.hour_booking:hover, .li_hour_booking .hour_booking { border-bottom: 3.5px solid #3aa500; box-shadow: none; -moz-box-shadow: none; }
+.li_hour_booking .hour_booking:hover, .li_hour_booking .hour_booking.active, .li_hour_booking .hour_booking.active:hover { border-bottom: 3.5px solid #767676; background: #333333; box-shadow: none; -moz-box-shadow: none; color: #FFF; }
+.li_hour_booking .hour_booking:hover .span_hetcho, .li_hour_booking .hour_booking.active .span_hetcho, .li_hour_booking .hour_booking.active:hover .span_hetcho { color: #FFF; }
+.a_datebook:hover, .a_datebook.active { border-bottom: 0px solid #e0e0e0; background: #333; color: #fff; box-shadow: none; -moz-box-shadow: none; }
+.a_datebook:hover .fix_date, .a_datebook.active .fix_date { color: #FFF; }
+
+.a_salon:hover, .a_salon.active { background: #333; color: #fff; -moz-box-shadow: 0 4px 0px #e0e0e0; -webkit-box-shadow: 0 4px 0px #e0e0e0; box-shadow: 0 4px 0px #e0e0e0; }
+.a_salon:hover .span_quan_thanhpho, .a_salon.active .span_quan_thanhpho { color: #FFF; }
+.wp_lststylist .ctn_stylist .ul_stylist .a_it_stylist { font-size: 16px; }
+.wp_lststylist .ctn_stylist { top: 45px; }
+.wp_booking_V5 .responsive-slider .control-btn a.left { background: url('/images/prev_booking16.png') no-repeat !important; background-size: 25px !important; height: 83px !important; }
+.wp_booking_V5 .responsive-slider .control-btn a.right { background: url('/images/next_booking16.png') no-repeat !important; background-size: 25px !important; height: 83px !important; }
+.li_hour_booking .hour_booking:hover, .li_hour_booking .hour_booking.disable:hover, .li_hour_booking .hour_booking, .li_hour_booking .hour_booking.disable { font-size: 20px; line-height: 36px; }
+
+@media (max-width:768px) {
+    .wp_booking.wp_booking_V5 { padding: 0px; }
+    .wp_khunggio .li_hour_booking { width: 25%; }
+    .p_title_booking_V5, .text_step { font-size: 16px; }
+    .tr_booking .form-control { font-size: 16px; }
+}
+
+  @media(max-width: 768px) {
+            .message-section { margin-top: 10px; }
+            .slide { margin-bottom: 0 !important; }
+        }
+
+        .no-border { border-radius: 0px !important; }
+
+        @media (max-width: 767px) {
+            .li_datebook { width: 31.5%; float: left; margin-right: 0.5%; margin-left: 1%; }
+        }
+
+        .li_salon { width: 49.5%; float: left; margin-bottom: 3px; }
+
+        @media (max-width: 767px) {
+            .li_datebook { width: 32.32%; float: left; margin-right: 0.5%; margin-left: 0; }
+
+            .ul_datebook .li_datebook:first-child { margin-left: 0 !important; }
+            .ul_datebook .li_datebook:last-child { margin-right: 0 !important; }
+
+            .input-booking { padding-left: 5px !important; padding-right: 5px !important; }
+
+            .banner-kc { padding-top: 15px; }            
+        }
+
+        .input-booking { padding-left: 0; padding-right: 0; }
+        .form-control { border: none !important; }
+        .text_step { margin-bottom: 5px; }
+        .a_noevent.active, .a_noevent:hover { background: #ffffff; color: #000000 !important; }
+        .a_noevent.active .span_quan_thanhpho, .a_noevent:hover .span_quan_thanhpho { color: #1a1a1a; }
+
+        .wp_khunggio { width: 100.5%; margin-left: 0; }
+        .wp_khunggio .li_hour_booking { width: 25%; padding-left: 0; padding-right: 0.5%; }
+        .li_hour_booking .hour_booking { height: 50px; }
+        .li_hour_booking .hour_booking:hover,
+        .li_hour_booking .hour_booking.disable:hover,
+        .li_hour_booking .hour_booking,
+        .li_hour_booking .hour_booking.disable { line-height: 50px; font-size: 30px; }
+        .hour_booking.disable .span_hetcho, .hour_booking .span_hetcho { font-size: 16px; }
+        .button-booking { background: rgb(58,165,1) !important; width: 100%; text-align: center; }
+        .form-control { height: 45px; line-height: 45px; }
+        .fix_date { font-size: 18px; }
+        .text_note { font-size: 16px; }
+
+        .ul_salon { width: 100.5%; margin-top: 0; }
+        .li_salon.setmargin { margin-left: 0.7% !important; }
+        .text_step { margin-top: 15px; }
+        .li_datebook { margin-right: 0.7% !important; width: 32.6% !important; margin-left: 0; }
+        .ul_datebook { width: 100.6%; }
+
+        .banner-kc { padding-left: 0; padding-right: 0; margin-top: 10px; text-align: center; }
+        .banner-kc img { max-width: 100%; }
+        #lblMessage { display:none; }
+
+        .hourframe-placeholder { position: absolute; top: 53%; left: 0; text-align: center; font-size: large; padding: 10%; color: #ffffff!important; }
+        .hourframe-placeholder * { color: #ffffff!important; }
+/**/
+#form-booking{
+	position: relative;
+	max-width: 90%;
+	padding: 10px 8%;
+    margin-left: 8%;
+}
+#form-booking form input{
+    width: 70%;
+    margin:10px;
+    height: 50px;
+    padding-left: 15px;
+    border: none;
+    font-size: 20px;
+
+}
+#form-booking form button{
+    margin:10px;
+    height: 50px;
+    font-size: 20px;
+    width: 20%;
+
+}
+#form-booking form select{
+    margin:10px;
+    height: 30px;
+    font-size: 18px;
+    width: 60%;
+    padding-left: 15px;
+
+}
+#form-booking-time{
+	max-width: 70%;
+	margin: 10px 15%;
+}
+.fix_abc { display: none !important; }
+.fa-search { display: none !important; }
+
+.wp_booking { background: #ffffff; }
+.link-30shine-video { padding-top: 25px; width: 50%; margin: 0 auto; }
+    .link-30shine-video .link-video { padding-left: 0; padding-right: 10px; }
+    .link-30shine-video .link-image { padding-right: 0; padding-left: 10px; }
+    .link-30shine-video a { background: #000000; display: block; width: 100%; float: left; text-align: center; padding: 10px; font-size: 18px; color: #ffffff; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-transition: 0.2s all ease; -moz-transition: 0.2s all ease; -o-transition: 0.2s all ease; -ms-transition: 0.2s all ease; transition: 0.2s all ease; }
+        .link-30shine-video a:hover { background: #fcd344; color: #000000; }
+            .link-30shine-video a:hover span { color: #000000; }
+        .link-30shine-video a span { color: #ffffff; font-size: 18px; -webkit-transition: 0.2s all ease; -moz-transition: 0.2s all ease; -o-transition: 0.2s all ease; -ms-transition: 0.2s all ease; transition: 0.2s all ease; }
+
+.booking-nav-wp { width: 100%; float: left; display: flex; }
+.booking-nav { margin: 20px auto 0px auto; display: flex; }
+    .booking-nav a { display: block; float: left; }
+    .booking-nav img { width: auto; max-width: 100%; }
+    .booking-nav .link-hair { margin-left: 20px; }
+
+.btn-success.fix_btn { background: #5cb85c !important; border-color: #5cb85c !important; color: #FFF !important; }
+.li_hour_booking { margin-left: 4px; margin-right: 4px; }
+.hour_booking { width: 72px; }
+.tr_booking { margin-bottom: 0px; }
+.wp_khunggio { background: #FFF; }
+.wp_textnote { background: #FFF; }
+
+@media(max-width: 768px) {
+    .hour_booking { width: 66px; }
+    .footer { padding-left: 25px !important; padding-right: 25px !important; padding-top: 15px; }
+
+
+    .link-30shine-video { width: 100% !important; padding-top: 25px; padding-bottom: 10px; }
+
+    #logoM { width: 100px; padding-left: 0px !important; }
+    .menu-m { margin-top: -1px; }
+        .menu-m > .container .row { text-align: center; margin-top: 13px; margin-top: -1px; padding-top: 10px; padding-bottom: 15px; }
+    .hotline-m .col-left { border-bottom: 1px solid #ddd; }
+
+        .hotline-m .col-left h4 { border-bottom: none !important; }
+
+    .booking-nav { margin: 0 auto 20px auto; }
+        .booking-nav .link-hair { margin-left: 0px; }
+
+    .li_salon { width: 100%; margin-left: 0% !important; margin-bottom: 3px !important; }
+    .a_salon { padding: 15px 10px !important; }
+}
+
+.a_salon { background: #FFF; padding: 12px 10px !important; color: #1a1a1a; font-family: Arial Bold; border: none; }
+    .a_salon.active { background: #000000; }
+.a_datebook.active { background: #000000; }
+
+.a_datebook { text-transform: capitalize; font-size: 14px; padding-top: 7px; padding-bottom: 7px; line-height: 17px; }
+.a_salon { font-size: 18px; border-radius: 0px; /*line-height: 27px;*/ }
+.form_booking { width: 512px; }
+
+.lbl_text { width: 18% !important; padding-right: 0 !important; }
+.tr_booking { padding-left: 0; padding-right: 0; }
+#btnBooking { margin-top: 15px; padding: 15px 40px !important; height: auto; }
+
+.button-booking { float: left; padding: 12px 45px; background: #5cb85c; color: #ffffff; font-size: 16px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+
+.page-loading { width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 100000; background: rgba(0,0,0, 0.65) url(/images/load_ring.svg) center no-repeat; text-align: center; display: none; }
+    .page-loading p { color: #fcd344; position: relative; top: 50%; padding-top: 37px; line-height: 22px; }
+
+/*Loadder*/
+.loader { border: 16px solid #f3f3f3; /* Light grey */ border-top: 16px solid #fcd344; /* Blue */ border-radius: 50%; width: 120px; height: 120px; animation: spin 2s linear infinite; float: left; border-bottom: 16px solid #fcd344; }
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+/*End Loadder*/
+#ClickFake { position: absolute; width: 100%; height: 100px; cursor: pointer; z-index: 99; background: #5cb85c; left: 0px; display: none; top: 0px; }
+.li_datebook { margin-bottom: 10px; }
+    .li_datebook.fix_css_margin { margin-right: 0px; }
+.span_fix_salon { width: 100%; float: left; text-align: center; color: #000; font-style: italic; }
+.link_store { padding: 5px; }
+.fix_textapp { font-size: 18px; padding: 10px; word-spacing: 0; font-family: Arial Bold; }
+.title_booking { margin-bottom: 0px; }
+.li_salon.setmargin { margin-left: 1%; }
+.li_salon { margin-right: 0%; }
+.btn-success.fix_btn { background-color: #fcd344; border-color: #fcd344; color: #000; margin-top: 10px; }
+.lbl_text_gh { width: 100% !important; }
+/* Fix css Booking Version 3  */
+.span_quan_thanhpho { width: 100%; float: left; text-align: center; font-family: Arial Regular; color: #1a1a1a; font-size: 14px; }
+/*.slide { background: #FFF; }*/
+.slide > .container { background: #FFF; }
+.title_booking { margin-bottom: 15px; }
+.fix_from_booking { width: 100%; float: left; background: #e0e0e0; }
+.wp.slide .container { width: 1080px; }
+.fix_head_booking { width: 100%; float: left; }
+.ctn_booking { padding: 0px; }
+.booking-nav-wp { /*border-bottom: 2px solid #ccc;*/ padding-bottom: 25px; }
+.ul_salon { width: 100%; float: left; }
+.lbl_text { width: 100% !important; }
+.ul_datebook { width: 100%; }
+.fr_text { border-radius: 15px; width: 85%; }
+.form-control { padding-left: 15px; height: 37px; }
+.wp_lststylist .a_stylist .i_triagle { position: absolute; /* top: 18px; */ right: 17px; border-width: 8px 4px 0 4px; }
+.wp_lststylist .ctn_stylist { top: 37px; }
+    .wp_lststylist .ctn_stylist .ul_stylist .a_it_stylist { font-family: Arial Regular; }
+.fix_date { /*font-size: 19px; line-height: 27px;*/ }
+.wp_from_booking { padding-bottom: 10px; padding-top: 5px; }
+.lbl_text { /*font-size: 20px;*/ }
+.button-booking { font-family: UTM Alexander; font-size: 20px; padding: 12px 45px; text-transform: uppercase; border-radius: 25px; }
+.link_store { margin-top: 20px; }
+.hour_booking {font-family: Arial Bold;border-radius: 0px;font-weight: normal;}
+    .hour_booking .span_hetcho { font-size: 14px; }
+.div_border { display: none; }
+.a_salon:hover { background: #fff000; color: #1a1a1a; }
+.a_salon:hover, .a_salon.active { background: #fff000; color: #1a1a1a; -moz-box-shadow: 3px 3px 0px #aaaaaa; -webkit-box-shadow: 3px 3px 0px #aaaaaa; box-shadow: 3px 3px 0px #aaaaaa; }
+.a_datebook { color: #1a1a1a; background: #FFF; border: 0px; border-radius: 0px; }
+    .a_datebook:hover, .a_datebook.active { background: #fff000; color: #1a1a1a; -moz-box-shadow: 3px 3px 0px #aaaaaa; -webkit-box-shadow: 3px 3px 0px #aaaaaa; box-shadow: 3px 3px 0px #aaaaaa; }
+        .a_datebook.active .fix_date { color: #1a1a1a; }
+        .a_datebook .fix_date, .a_datebook:hover, .a_datebook:hover .fix_date { color: #1a1a1a; }
+.li_hour_booking .hour_booking:hover, .li_hour_booking .hour_booking.active { color: #1d1d1d; background: #fff000; border-color: #fff000; -moz-box-shadow: 2px 2px 0px #aaaaaa; -webkit-box-shadow: 2px 2px 0px #aaaaaa; box-shadow: 2px 2px 0px #aaaaaa; }
+.li_hour_booking .hour_booking.disable:hover, .li_hour_booking .hour_booking.disable.spdisable:hover { background: #f23e3e; border-color: #f23e3e; color: #FFF; box-shadow: none; }
+.li_hour_booking .hour_booking, .li_hour_booking .hour_booking.disable {line-height: 31px;font-size: 18px;font-family: Arial Bold;}
+.hour_booking.disable .span_hetcho, .hour_booking .span_hetcho {  font-family: Arial Regular; }
+
+.li_hour_booking .hour_booking:hover .span_hetcho, .li_hour_booking .hour_booking.active .span_hetcho { color: #1d1d1d; }
+.lbl_text { font-size: 13px; color: #0b0b0b; font-weight: normal; font-family: Arial Bold; }
+.fix_tr_booking { margin-top: 0px; }
+.span_note_text { width: 100%; float: left; font-family: Arial Regular; font-weight: normal; color: #0b0b0b; margin-top: -7px; padding-left: 10px; line-height: 16px; }
+.wp_textnote { border: none; -moz-box-shadow: 2px 2px 2px 1px #b8b8b8; -webkit-box-shadow: 2px 2px 2px 1px #b8b8b8; box-shadow: 2px 2px 2px 1px #b8b8b8; }
+.wp_khunggio { border: none; }
+.text_note { font-size: 14px; line-height: 19px; }
+.wp_textnote .text_note:first-child { margin-bottom: 7px; }
+.wp_textnote .text_note:last-child { margin-top: 7px; }
+
+.li_hour_booking .hour_booking.disable:hover { background: #ccc; color: #000; border:none; }
+.li_hour_booking .hour_booking.disable{border:0px;}
+.li_hour_booking .hour_booking.disable.spdisable:hover .span_hetcho{color:#FFF;}
+
+/*/ Fix css Booking Version 3  */
+@media (max-width: 768px) {
+    .tr_booking .form-control { font-size: 14px; }
+    .ctn_booking { background: #e0e0e0; }
+    .div_border { border-bottom: 2px solid #cccccc; width: 100%; height: 2px; display: block; float: left; }
+    .booking-nav-wp { padding-bottom: 10px; }
+
+
+    .hotline-m .col-left h4 { font-size: 15px; }
+    .wp_from_booking { margin-top: -15px; }
+    .a_salon.fix_delathanh { padding: 10px 1px; }
+    .title_booking { margin-top: 0; }
+
+    .hotline-m .col-left h4 span, .hotline-m .col-left h4 a span { font-size: 14px; }
+
+    .ctn_booking { padding-top: 0; }
+
+    .menu-m { background: #ffffff !important; }
+
+    .toogle-menu-m { display: none; }
+
+    .menu-m-sub { display: none !important; }
+
+    .menu-m-sub { display: none !important; }
+
+    .come-with-us { height: auto; }
+
+    /*.all-store { padding-left: 7.8%; padding-top: 4%; }*/
+    .lbl_text_gh { padding-left: 0 !important; }
+    .footer .container .col-md-8 { padding: 0px; }
+}
+
+.wp_booking { background: #e0e0e0; padding: 0px; }
+.link-30shine-video a:hover { background: #fcd344; color: #000000; }
+.link-30shine-video { padding-top: 25px; width: 50%; margin: 0 auto; }
+    .link-30shine-video .link-video { padding-left: 0; padding-right: 10px; }
+    .link-30shine-video a { background: #000000; display: block; width: 100%; float: left; text-align: center; padding: 10px; font-size: 18px; color: #ffffff; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-transition: 0.2s all ease; -moz-transition: 0.2s all ease; -o-transition: 0.2s all ease; -ms-transition: 0.2s all ease; transition: 0.2s all ease; }
+        .link-30shine-video a span { color: #ffffff; font-size: 18px; -webkit-transition: 0.2s all ease; -moz-transition: 0.2s all ease; -o-transition: 0.2s all ease; -ms-transition: 0.2s all ease; transition: 0.2s all ease; }
+.fix_salon { width: 100% !important; }
+/*.fix_salon .a_salon { padding-top: 10px; padding-bottom: 10px; }*/
+.p_fix { width: 100%; float: left; text-align: center; font-style: italic; color: #FFF; font-size: 13px; }
+.nghi_tet { display: block !important; }
+.wp_popup_tet { width: 100%; height: 100%; position: absolute; z-index: 9999; top: 0px; background-color: rgba(0, 0, 0, .5); display: none; }
+.wp_content_nghitet { width: 45%; margin: 0 auto; }
+.content { width: 100%; float: left; margin-top: 10%; padding: 25px 15px; background-color: #fcd344; border-radius: 5px; }
+.p_noidung { color: #000; width: 100%; float: left; text-align: center; line-height: 25px; font-size: 22px; }
+    .p_noidung span { font-family: Roboto Condensed Bold; color: #000; }
+.disable_block { display: none !important; }
+.title_content { text-align: center; font-family: Roboto Condensed Bold; font-size: 22px; text-transform: uppercase; }
+.span_note { width: 100%; float: left; padding-left: 8px; }
+.text_note.fix_textapp span { font-family: Arial Bold !important; }
+.fix_textapp { text-align: justify; -moz-text-align-last: center; /* Code for Firefox */ text-align-last: center; }
+.fixlable { width: 15% !important; line-height: 37px; }
+.wp_lststylist { width: 85%; }
+.a_stylist.form-control.fr_text { line-height: 24px; }
+
+
+@media (max-width: 768px) {
+    .wp_content_nghitet { width: 94%; }
+    .content { margin-top: 20%; }
+    .title_content { font-size: 19px; }
+    .p_noidung { color: #000; width: 100%; float: left; text-align: center; line-height: 20px; font-size: 15px; }
+    .li_salon { width: 49.5%; }
+        /*.li_salon:first-child{margin-right:0px;}
+        .li_salon:nth-child(odd) { margin-right: 4%; }*/
+        .li_salon.setmargin { margin-left: 1% !important; }
+    .a_salon { font-size: 17px; line-height: 18px; }
+    .span_quan_thanhpho { font-size: 14px; }
+    .fix_date { font-size: 17px; line-height: 18px; }
+    .lbl_text { font-size: 14px; }
+    .a_datebook { font-size: 14px; }
+    .button-booking { width: 100%; text-align: center; border-radius: 25px; font-size: 25px; height: 50px; line-height: 50px; font-size: 24px; padding: 0px; }
+    .link_store { padding: 10px; }
+    .fix_textapp { font-size: 16px; line-height: 20px; }
+    .title_booking { font-size: 25px; padding-top: 18px; padding-bottom: 15px; }
+    /**/
+}
+
+.message-section { padding-left: 15px; float: left; border-left: 1px solid #e7e7e7; margin-left: 15px; display: none; }
+    .message-section .text-1 { font-family: Roboto Condensed Bold; }
+    .message-section .message-section-item p { color: red; }
+
+@media (min-width :365px ) and (max-width: 400px) {
+    .fr_text { width: 80%; }
+    .wp_lststylist { width: 80%; }
+    .fixlable { width: 20% !important; }
+    .a_salon { font-size: 15px; line-height: 18px; }
+    .span_quan_thanhpho { font-size: 13px; }
+    .a_datebook { font-size: 13px; }
+    .fix_date { font-size: 15px; line-height: 15px; }
+    .booking-nav-wp { padding-bottom: 5px; }
+    .hour_booking { width: 58px; }
+}
+
+@media (max-width: 330px) {
+    .fr_text { width: 80%; }
+    .wp_lststylist { width: 80%; }
+    .fixlable { width: 20% !important; }
+    .booking-nav-wp { padding-bottom: 0px; }
+    .fix_date { font-size: 15px; line-height: 16px; }
+    .a_salon { font-size: 14px; line-height: 16px; padding: 13px 5px !important; }
+    .span_quan_thanhpho { font-size: 12px; }
+    .hour_booking { width: 61px; }
+}
+
+
+/*==============================================*/
+/*==================Booking=====================*/
+/*==============================================*/
+#logoM { width: 120px; }
+.p_message span { font-weight: bold; }
+
+.p_message { width: 100%; text-align: center; font-size: 15px; }
+
+.close-button { float: left; position: absolute; right: -30px; top: -20px; color: #FFF; cursor: pointer; }
+
+.wp_popup_booking { background: white; -webkit-box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.7); -moz-box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.7); box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.7); display: none; width: 400px; padding: 15px; }
+/* style popup*/
+.eb-popup-wp { width: 100%; height: 100%; float: left; position: fixed; z-index: 100000; background: rgba(0,0,0,0.6); display: none; top: 0; left: 0; }
+
+.eb-popup-wp .eb-popup { width: 100%; float: left; min-height: 20px; background: white; -webkit-box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.7); -moz-box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.7); box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.7); }
+
+.eb-popup-wp .eb-popup-float { margin: 0 auto; position: relative; /*margin-top: 27% !important;*/ }
+
+.eb-popup-wp .closeBtn { width: 9px; height: 9px; background: url(../images/icon-collection.png) no-repeat; background-position: left 0 top 0px; background-position-x: 0px; background-position-y: 0; position: absolute !important; top: 6px; right: -18px; cursor: pointer; z-index: 2000; }
+
+.eb-popup-wp .closeBtn .child-wp { width: 100%; position: relative; display: none; }
+
+.eb-popup-wp .closeBtn .child-wp .text { padding: 5px 10px; background: rgba(0,0,0,0.4); color: #ffffff; position: absolute; top: 18px; right: -7px; width: 136px; font-family: Roboto Condensed Light; }
+
+.eb-popup-wp .closeBtn .child-wp .triangle { width: 0; height: 0; border-style: solid; border-width: 0 5px 6px 5px; border-color: transparent transparent rgba(0,0,0,1) transparent; position: absolute; top: 12px; right: -1px; }
+
+.eb-popup-wp .closeBtn:hover .child-wp { display: block; }
+
+/*** Msg success ***/
+.msg-success { width: 460px; background: #ffffff; display: none; }
+
+.msg-success .row { padding: 20px 30px; margin: 0; font-family: Roboto Condensed Regular; font-size: 14px; text-align: center; }
+
+/*** Confirm Yes - No ***/
+.confirm-yn { width: 460px; float: left; background: #ffffff; display: none; }
+
+.confirm-yn-content { width: 100%; float: left; padding: 30px 30px; }
+
+.confirm-yn .row { margin: 0; }
+
+.confirm-yn .row p { text-align: center; }
+
+.confirm-yn .yn-wp { width: 150px; margin: 15px auto; }
+
+.confirm-yn .yn-wp .yn-elm { width: 60px; height: 30px; line-height: 30px; background: #dfdfdf; float: left; cursor: pointer; text-align: center; }
+
+.confirm-yn .yn-wp .yn-yes { margin-right: 10px; }
+
+.confirm-yn .yn-wp .yn-yes:hover { background: red; color: white; }
+
+.confirm-yn .yn-wp .yn-no:hover { background: #50b347; color: white; }
+/*end style popup*/
+.btn-success.fix_btn { padding: 10px 20px !important; height: 37px; }
+
+.lblnote { width: 82%; float: right; font-size: 14px; line-height: 17px; color: #484849; padding-top: 2px; }
+
+#lblErrerDate { border-color: red; color: red; display: none; width: auto; right: -41%; }
+
+#lblErrerHour { color: #ff0000; position: absolute; right: -35%; border: 1px solid #ff0000; padding: 6px 12px 6px 35px; border-radius: 4px; font-family: Roboto Condensed Light; top: 45px; /*background: url("/images/img_style/failedicon.png") no-repeat;*/ background-position: 7px 4px; font-size: 14px; display: none; }
+
+.ctn_booking { background: #FFF; padding: 20px; }
+
+.wp_title_booking { width: 100%; float: left; }
+
+.tr_booking { margin-bottom: 10px; position: relative; }
+
+.title_booking { width: 100%; float: left; font-family: UTM Alexander; font-size: 40px; padding-bottom: 10px; margin: 10px 0px 20px; text-align: center; color: #0b0b0b; }
+.span_text_book { font-family: Arial; text-align: justify; width: 100%; float: left; font-size: 19px; word-spacing: -0.1px !important; }
+.lbl_text { width: 20%; float: left; font-family: Arial; font-weight: Bold; color: #000; font-size: 15px; padding-right: 10px; line-height: 34px; }
+
+.fr_text { width: 80%; float: left; position: relative; font-family: Arial; }
+
+.ddl_salon { width: 80%; cursor: pointer; float: left; }
+
+.fr_validate { /*background: url("/images/img_style/failedicon.png") no-repeat;*/ float: left; padding: 6px 12px 6px 35px; line-height: 1.42857143; font-size: 14px; border: 1px solid; border-radius: 4px; margin-left: 10px; background-position: 7px 4px; background-size: 25px; font-family: Roboto Condensed Light; position: absolute; width: 42%; top: 40%; z-index: 1; }
+
+.form_booking { width: 50%; margin: 0 auto; }
+
+.wp_khunggio { width: 100%; float: left; border: 1px solid #979797; }
+
+.hour_booking {font-family: Arial;font-weight: bold;background: #42bc00;padding: 0px;font-size: 15px;color: #FFF;float: left;border-radius: 2px;border: 1px solid #42bc00;transition: all 0.3s ease-in-out 0s;-moz-transition: all 0.3s ease-in-out 0s;-webkit-transition: all 0.3s ease-in-out 0s;-o-transition: all 0.3s ease-in-out 0s;width: 74px;text-align: center;height: 43px;}
+
+.li_hour_booking { float: left; margin: 0px 5px 10px; }
+
+.li_hour_booking .hour_booking.active { background: #42bc00; color: #000; border-color: #42bc00; }
+
+.li_hour_booking .hour_booking.active:hover { color: #000; }
+
+.li_hour_booking .hour_booking.active .span_hetcho { color: #000; }
+
+.li_hour_booking .hour_booking.disable:hover { color: #000; }
+
+.lblmessage { width: 100%; float: left; padding: 0px; margin-bottom: 10px; color: #000; text-align: center; font-size: 16px; }
+/*.li_hour_booking .hour_booking.disable { background: #d43f3a; border-color: #d43f3a; color: #FFF; cursor: none; line-height: 29px; }*/
+.li_hour_booking .hour_booking { line-height: 29px; }
+
+.li_hour_booking .hour_booking.disable { background: #ccc; color: #000; border: 1px solid #b7b7b7; cursor: default; line-height: 29px; }
+
+.hour_booking.disable .span_hetcho { display: block; color: #000; font-size: 12px; line-height: 0px; }
+
+.hour_booking .span_hetcho { color: #FFF; font-size: 12px; line-height: 0px; display: block; font-family: Arial; }
+
+.li_hour_booking .hour_booking:hover { color: #FFF; }
+
+.hour_booking.disable.spdisable { background: #f23e3e; border-color: #f23e3e; color: #FFF; }
+
+.hour_booking.disable.spdisable:hover { color: #FFF; }
+
+.hour_booking.disable.spdisable .span_hetcho { color: #FFF; }
+
+.lblmessage { color: #ff0000; width: 100%; float: left; padding: 0px; margin-top: 10px; color: #000; }
+
+.wp_from_booking { width: 100%; float: left; }
+
+.btnsubmit { line-height: 10px; }
+
+.div_note { width: 100%; float: left; color: #ff0000; font-family: Roboto Condensed Light; font-style: italic; padding-bottom: 3px; font-size: 14px; }
+
+.xdsoft_datetimepicker * { font-weight: normal !important; }
+
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover { background: #bababa !important; }
+
+.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current { background: #50b347 !important; }
+
+.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current div { color: #ffffff !important; }
+
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current { background: #50b347 !important; }
+
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default div,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current div,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current div { color: #ffffff !important; }
+
+.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover { background: #bababa !important; color: #222222 !important; }
+
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover { background: #bababa !important; color: #222222 !important; }
+
+.wp_confirm { background: white; -webkit-box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.7); -moz-box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.7); box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.7); display: none; width: 400px; padding: 15px; }
+
+.content_confirm { width: 100%; text-align: justify; font-size: 15px; margin-bottom: 15px; }
+
+.content_confirm span { font-weight: bold; }
+
+.wp_btn_confirm { width: 221px; position: relative; margin: 0 auto; }
+
+.wp_btn_confirm .btn_confirm { width: 90px; text-align: center; line-height: 25px; padding: 5px 10px; margin-left: 18%; background: #dfdfdf; cursor: pointer; border: 1px solid #D0D6D8; }
+
+.wp_btn_confirm .btn_confirm:hover { background: #e7e7e7; color: #444444; }
+
+.wp_btn_confirm .confirm_right { margin-left: 1px; }
+
+.wp_btn_confirm .confirm_lef { margin-right: 40px; margin-left: 0px; }
+
+.wp_textnote { width: 100%; float: left; padding: 15px 20px; border: 1px solid #979797; margin-top: 10px; }
+
+.text_note { width: 100%; float: left; font-style: italic; text-align: justify; color: #101010; font-family: Arial; font-style: italic; font-size: 18px; }
+.btn-success.fix_btn.fix_new { font-size: 35px; padding: 10px 65px !important; height: 66px; text-transform: uppercase; border-radius: 25px; }
+/*========================================
+   // Style Chosen
+==========================================*/
+.ctn_booking .chosen-container-single .chosen-single span { font-family: Roboto Condensed Regular; font-size: 15px; padding-left: 8px; color: #555; }
+
+.ctn_booking .chosen-container-single .chosen-single { height: 35px; padding-top: 3px; }
+
+.ctn_booking .chosen-container-single .chosen-single div b { background-position: 0px 8px; }
+
+.ctn_booking .chosen-container-active.chosen-with-drop .chosen-single div b { background-position: -18px 8px; }
+
+.wp_lststylist { position: relative; width: 80%; float: left; }
+
+.wp_lststylist .a_stylist { width: 100%; color: #999797; }
+/*.wp_lststylist .a_stylist:hover { color: #555; }*/
+.wp_lststylist .a_stylist.active { color: #555; }
+
+.wp_lststylist .a_stylist.active:hover { color: #555; }
+
+.wp_lststylist .a_stylist .i_triagle { width: 0; height: 0; position: absolute; top: 14px; right: 5px; border-style: solid; border-width: 6px 3.5px 0 3.5px; border-color: #555 transparent transparent transparent; }
+
+.wp_lststylist .ctn_stylist { width: 100%; float: left; border: 1px solid #66afe9; position: absolute; z-index: 1; background: #FFF; top: 34px; display: none; }
+
+.wp_lststylist .ctn_stylist .search_stylist { width: 98%; margin: 5px 1%; padding: 0 7px; }
+
+.wp_lststylist .ctn_stylist .ul_stylist { width: 100%; float: left; padding: 5px 0px 10px; height: 205px; overflow-y: scroll; }
+
+.wp_lststylist .ctn_stylist .ul_stylist .a_it_stylist { width: 100%; float: left; line-height: 25px; cursor: pointer; padding: 0px 12px; font-family: Arial; }
+.wp_lststylist .ctn_stylist .ul_stylist .a_it_stylist span { font-family: Arial; }
+.wp_lststylist .ctn_stylist .ul_stylist .a_it_stylist:hover { color: #FFF; background: #1e90ff; }
+
+.wp_lststylist .ctn_stylist .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar { width: 3px; }
+
+.wp_lststylist .ctn_stylist.active { display: block; }
+
+.wp_lststylist .ctn_stylist .ul_stylist .a_it_stylist .disableac { display: none; }
+
+.ctn_stylist .fa-search { position: absolute; top: 12px; right: 12px; color: #aaa; }
+
+.a_it_stylist .cls_nghi { color: red; font-family: Roboto Condensed Light; }
+
+.a_stylist .span_not { color: #999797; font-style: italic; font-family: Arial; }
+
+.a_stylist.active .span_not { color: #555; }
+
+.ul_salon { width: 80%; float: left; }
+
+.li_salon { width: 48%; float: left; margin-bottom: 10px; }
+
+.fix_textapp { font-style: inherit; margin-bottom: 10px; text-align: center; font-size: 17px; }
+
+.link_store { width: 100%; float: right; margin-bottom: 14px; padding: 5px; border: 1px solid; margin-top: 16px; }
+
+.a_link_app { width: 45%; float: left; margin-right: 7%; text-align: right; }
+
+.a_link_app_right { margin-right: 0%; text-align: left; }
+
+.a_link_app .img_ios { width: 70%; }
+
+.a_link_app .img_android { width: 71%; }
+
+.a_salon { background: #000000; color: #FFF; border: 1px solid #398439; line-height: 18px; padding: 20px 10px; border-radius: 5px; width: 100%; float: left; text-align: center; font-family: Arial; }
+.a_salon.fix_delathanh { padding: 10px 20px; }
+.li_salon:first-child { margin-right: 4%; }
+
+.a_salon:hover { color: #FFF; }
+
+.ul_datebook { width: 80%; float: left; }
+
+.li_datebook { width: 32%; float: left; margin-right: 2%; }
+
+.li_datebook:last-child { margin-right: 0px; }
+
+.a_datebook { background: #000; color: #FFF; border: 1px solid #000; line-height: 18px; padding: 5px 5px; border-radius: 5px; width: 100%; float: left; text-align: center; transition: all 0.3s ease-in-out 0s; -moz-transition: all 0.3s ease-in-out 0s; -webkit-transition: all 0.3s ease-in-out 0s; -o-transition: all 0.3s ease-in-out 0s; font-family: Arial; }
+.wp_textnote .fix_note_text { background: url(/images/booking3.png) no-repeat; background-size: 10px; background-position-y: 8px; padding-left: 20px; }
+.a_datebook:hover { color: #FFF; }
+
+.a_salon.active { background: #000; border-color: #000; color: #fff000; }
+
+.a_datebook.active { background: #000; border-color: #000; color: #fff000; }
+
+#lblErrorSalon { color: #ff0000; color: #ff0000; position: absolute; right: -41.5%; border: 1px solid #ff0000; padding: 6px 12px 6px 35px; border-radius: 4px; font-family: Roboto Condensed Light; top: 25px; background-position: 7px 4px; font-size: 14px; display: block; width: 42%; }
+
+#lblEorrorDateBook { color: #ff0000; color: #ff0000; position: absolute; right: -41.5%; border: 1px solid #ff0000; padding: 6px 12px 6px 35px; border-radius: 4px; font-family: Roboto Condensed Light; top: 1px; background-position: 7px 4px; font-size: 14px; display: block; width: 42%; }
+.fix_date { width: 100%; float: left; display: inline-block; font-size: 15px; color: #FFF; font-family: Roboto Bold; }
+.a_datebook.active .fix_date { color: #fff000; }
+
+@media(min-width:992px) and (max-width:1200px) {
+    .wp_btn_confirm { width: 60%; }
+
+    .wp_khunggio { padding: 15px 15px 5px 18px; }
+
+    .hour_booking { width: 56px; }
+
+    .form_booking { width: 57%; }
+
+    #lblErrerHour { right: -37%; }
+
+    .lblnote { width: 80%; }
+
+    .eb-popup-wp .eb-popup-float { margin-top: 36% !important; }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+
+
+    .eb-popup-wp .eb-popup-float { margin-top: 43%; }
+
+    .form_booking { width: 70%; }
+
+    .wp_from_booking { margin-left: -2%; }
+
+    .fr_validate { padding-right: 4px; top: inherit; bottom: -37%; right: -25%; }
+
+    #lblErrerHour { z-index: 1; right: -21%; top: 21px; }
+
+    #lblErrerDate { right: -27%; }
+
+    .lblnote { width: 80% !important; }
+}
+
+@media(max-width:767px) {
+    .hotline-m .col-left h4 { border-bottom: 1px solid #ccc; font-family: Arial; }
+    .menu-m { background: #0b0b0b; }
+    .menu-m .logo-m { width: 100%; float: left; margin: 0 auto; text-align: center; }
+    .logo-m > img { padding: 20px 0px 15px; }
+    .title_booking { font-size: 30px; padding-top: 10px; margin-bottom: 0px; }
+    .li_datebook { width: 30.5%; float: left; margin-right: 4%; }
+
+    .wp_textnote { padding-left: 15px; padding-right: 15px; }
+    .wp_textnote .fix_note_text { background: url(/images/booking3.png) no-repeat; background-size: 8px; background-position-y: 5px; padding-left: 15px; }
+    .h4_giolam { font-family: Arial; }
+
+    .wp_confirm { width: 100%; }
+
+    .eb-popup-float { width: 80% !important; }
+
+    .wp_popup_booking { width: 100% !important; }
+    /*.eb-popup-wp .eb-popup-float { margin-top: 50% !important; }*/
+    .lblmobile { width: 100%; }
+
+    .div_note { font-size: 13px; }
+
+    .form_booking { width: 100% !important; }
+
+    .fr_validate { width: auto; right: 0px; top: inherit; bottom: -50%; z-index: 1; }
+
+    #lblErrerHour { right: 0px; z-index: 1; top: 5px; }
+
+    #lblErrerDate { right: -5%; }
+
+    .lblnote { width: 100%; padding-top: 8px; }
+    .span_text_book { font-size: 14px; }
+}
+
+
+@media(max-width:320px) {
+      .fix_date{font-size:12px;}
+    .text_note { font-size: 12px; }
+    .lbl_text { font-size: 12px; }
+    .wp_title_booking { padding: 0px; }
+    .lbl_text.fix_gh { width: 29%; }
+    .title_booking { font-size: 16px; }
+
+    .tr_booking { padding: 0px; }
+
+    .wp_khunggio { padding: 15px 5px 10px 5px; }
+
+    .hour_booking { width: 57px; }
+
+    .tr_booking .form-control { font-size: 12px; }
+
+    .hour_booking.disable .span_hetcho { font-size: 10px; }
+
+    .a_salon { font-size: 12px; padding: 10px 1px; line-height: 14px; }
+    .p_fix { font-size: 12px !important; }
+    .a_datebook { line-height: 14px; padding: 5px 1px; font-size: 12px !important; }
+}
+
+@media(min-width:321px) and (max-width:360px) {
+    .a_salon { padding: 10px 5px; font-size: 13px; }
+
+    .a_datebook { font-size: 13px; }
+
+    .wp_khunggio { padding: 15px 5px 10px 5px; }
+
+    .hour_booking { width: 67px; }
+
+    .tr_booking .form-control { font-size: 13px; }
+
+    .title_booking { font-size: 18px; line-height: 25px; margin-bottom: 0px; }
+
+    .tr_booking { padding: 0px; }
+}
+
+@media(min-width:361px) and (max-width:375px) {
+    .wp_textnote .fix_note_text { background-position-y: 10px !important; }
+    .a_salon { padding: 10px 1px; font-size: 12px; }
+    .p_fix { font-size: 12px !important; }
+    .wp_khunggio { padding: 15px 5px 10px 5px; }
+
+    .hour_booking { width: 66px; }
+
+    .tr_booking .form-control { font-size: 13px; }
+
+    .title_booking { font-size: 18px; line-height: 25px; margin-bottom: 0px; }
+
+    .tr_booking { padding: 0px; }
+
+    .li_hour_booking { margin: 0px 7px 10px; }
+
+    .hour_booking.disable .span_hetcho { font-size: 10px; }
+}
+
+@media(min-width:376px) and (max-width:411px) {
+
+
+    .wp_khunggio { padding: 15px 5px 10px 5px; }
+
+    .hour_booking { width: 61px; }
+
+    .tr_booking { padding: 0px; }
+    .lbl_text.fix_gh { width: 22%; }
+    .hour_booking.disable .span_hetcho { font-size: 11px; }
+}
+
+@media(min-width:412px) and (max-width:414px) {
+    .wp_textnote .fix_note_text { background-position-y: 10px !important; }
+    .a_salon { padding: 10px 5px; font-size: 13px; }
+    .lbl_text.fix_gh { width: 22%; }
+    .a_datebook { padding: 5px 7px; }
+
+    .wp_khunggio { padding: 15px 5px 10px 5px; }
+
+    .hour_booking { width: 62px; }
+
+    .tr_booking { padding: 0px; }
+
+    .hour_booking.disable .span_hetcho { font-size: 11px; }
+}
+
+@media(min-width:415px) and (max-width:435px) {
+    .wp_khunggio { padding: 15px 5px 10px 5px; }
+
+    .hour_booking { width: 62px; }
+
+    .tr_booking { padding: 0px; }
+}
+
+@media(min-width:436px) and (max-width:480px) {
+    .hour_booking { width: 65px; }
+}
+
+@media(min-width:481px) and (max-width:568px) {
+    .hour_booking { width: 67px; }
+}
+
+@media(min-width:569px) and (max-width:640px) {
+    .a_salon { padding: 10px 38px; }
+
+    .hour_booking { width: 67px; }
+}
+
+@media(min-width:641px) and (max-width:736px) {
+    .hour_booking { width: 60px; }
+
+    .a_salon { padding: 10px 45px; }
+}
+
+/*==============================================*/
+/*==================End Booking=====================*/
+/*==============================================*/
